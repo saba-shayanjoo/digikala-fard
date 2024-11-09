@@ -1,0 +1,33 @@
+.below-pop{
+    width:100%;
+    height:auto ;
+    
+    & .container{
+        margin-top: 24px;
+        
+        width: 100%;
+        height: 100%;
+    
+        display: flex;
+    
+        justify-content: space-between;
+        & .right-pop{
+
+        
+            & img{
+                width: 660px;
+                height: 264px;
+                border-radius: 30px;
+
+            }
+        }
+        & .left-pop{
+            & img{
+                width: 660px;
+                height: 264px;
+                border-radius: 30px;
+                
+            }
+        }
+    }
+}

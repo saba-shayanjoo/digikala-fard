@@ -1,0 +1,157 @@
+.header{
+    width: 100%;
+    height: 108px;
+    background-color:white;
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, 14%), 0 2px 0 0 rgba(0, 0, 0, 5%);
+    
+    
+}
+.header__top{
+    width: 100%;
+    height: 68px;
+    display: flex;
+    align-items: center;
+    
+}
+.header-logo__container{
+   
+    width: 195px;
+    height: 30px;
+    margin-left: 20px;
+
+}
+.header-logo{
+    width: 100%;
+    height: 100%;
+}
+.header-search{
+    background-color:#f0f1f1;
+    border-radius:  8px;
+    width: 600px;
+    height: 44px;
+    
+}
+.header__search-form{
+     width: 100%;
+    height: 100%;
+    
+
+    }
+.header__search-label{
+    display: block;
+    width: 100%;
+    height: 100%;
+    position:  relative;
+    
+}
+.header__search-input{
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding-right: 56px;
+    background-color: transparent;
+    border: none;
+}
+.header__search-icon{
+    position: absolute;
+    right: 16px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.header-buttons{
+   
+    margin-right: auto;
+    display: flex;
+    gap: 12px;
+    align-items: center;
+
+}
+.header__btn-login{
+    padding: 8px 18px;
+   
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12px;
+    font-weight: bold;
+    color: #0c0c0c;
+    border: 1px solid #e0e0e2;
+    border-radius: 8px;
+}
+.header__btn-shop{
+    padding: 8px;
+    display: flex;
+    align-items: center;
+
+}
+.header__bottom{
+    width: 100%;
+    height: 40px;
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.header__menu{
+    
+    height: 100%;
+}
+.header__menu-list{
+    
+    display: flex;
+    gap: 24px;
+    height: 100%;
+    
+}
+.header__menu-item{
+    
+    height: 100%;
+    
+    &:first-child{
+        & .header__menu-link{
+            color: #3f4064;
+    font-size: 14px;
+font-weight: 700;
+& svg{
+    fill: #424750;
+}
+        }
+    }
+
+}
+    
+
+.header__menu-link{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    position: relative;
+   
+    font-size: 12px;
+    font-weight: 400;
+    color: #62666d;
+    & svg{
+        fill: #a1a3a5;
+    }
+   
+    &:hover{
+        border-bottom:2px solid red;
+
+        width: 100%;
+        
+
+    }
+}
+.header_btn-city{
+    
+    align-items: center;
+    height: 100%;
+
+display: flex;
+gap: 8px;
+color: #3f4064;
+cursor: pointer;
+font-size: 12px;
+}

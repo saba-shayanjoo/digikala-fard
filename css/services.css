@@ -1,0 +1,42 @@
+.services{
+    margin-top: 24px;
+    & .container{
+        display: flex;
+        gap: 52px;
+        justify-content: center;
+        
+
+    }
+}
+.service__item{
+    padding: 0 15px;
+    
+    
+}
+
+.sevice__item-img__container{
+    width: 52px;
+    height: 52px;
+    border-radius: 50%;
+        background-color:gainsboro;
+        position: relative;
+    & svg{
+        position: absolute;
+        top:14px ;
+        left: 14px;
+        color: gray;
+    }
+}
+.service__item-img{
+    width: 100%;
+    height: 100%;
+}
+.sevice__item-title{
+    margin-top: 4px;
+    display: block;
+    text-align: center;
+    color:#3f4064 ;
+    font-size: 11px;
+    font-weight: bold;
+    line-height: 24px;
+}

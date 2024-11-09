@@ -1,0 +1,31 @@
+.ads{
+    
+    width: 100%;
+    height: 242px;
+    margin-top: 24px;
+
+    & .container{
+        
+        
+        width: 100%;
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 10px;
+
+        & .ad{
+            
+
+            & .ad__img{
+                
+                width: 322px;
+                height: 242px;
+                border-radius: 20px;
+
+            }
+        }
+    }
+}
+    
+    

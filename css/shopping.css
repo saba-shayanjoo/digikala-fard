@@ -1,0 +1,50 @@
+.shopping{
+    width: 1176px;
+    margin: 0 auto;
+    
+    
+    & .container-shopping{
+        
+        margin-top: 24px;
+        
+        & .title-shopping{
+            color: black;
+            font-size: 24px;
+            font-weight: 500;
+            display: block;
+            text-align: center;
+            
+        }
+        & .shopping-products{
+            margin-top: 44px;
+            
+            display: flex;
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: space-between;
+            gap:50px;
+            & .shopping__img-container{
+                width: 100px;
+                height: 100px;
+                
+                & .shopping-img{
+                    width: 100%;
+                    height: 100%;
+                   
+
+                }
+                & .shopping-img-title{
+                    font-size:12px ;
+                    font-weight: 600;
+                    color: black;
+                    display: block;
+                    text-align: center;
+                    
+                
+
+                }
+            }
+        }
+    }
+    
+}

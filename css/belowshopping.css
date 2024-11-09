@@ -1,0 +1,33 @@
+.below-shopping{
+    width:100%;
+    height:auto ;
+    margin: 0 auto;
+    & .container{
+        margin-top: 100px;
+        
+        width: 100%;
+        height: 100%;
+    
+        display: flex;
+    
+        justify-content: space-between;
+        & .right-shopping{
+
+        
+            & img{
+                width: 660px;
+                height: 264px;
+                border-radius: 30px;
+
+            }
+        }
+        & .left-shopping{
+            & img{
+                width: 660px;
+                height: 264px;
+                border-radius: 30px;
+                
+            }
+        }
+    }
+}

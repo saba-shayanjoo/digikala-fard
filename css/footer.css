@@ -1,0 +1,125 @@
+.footer{
+    width:1519px ;
+    height:620px ;
+    border-top: 2px solid gainsboro;
+    margin: 0 auto;
+    margin-top: 24px;
+    
+        & .footer-header{
+            padding: 30px ;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            & .footer-header-right{
+                
+                & .footer-title{
+                    font-size:16px ;
+                    font-weight: 500;
+                    color: rgb(77, 76, 76);
+                    margin-top: 20px;
+                }
+            }
+            & .footer-header-left{
+                display: flex;
+                gap: 8px;
+                align-items: center;
+                justify-content: center;
+                border: 2px solid gainsboro;
+                border-radius: 16px;
+                padding: 10px 15px;
+                & svg{
+                    color:gray;
+                }
+                & .footer-look-up{
+                    font-size: 16px;
+                    font-weight: 500;
+                    color: gray;
+                }
+
+            }
+
+        }
+        & .options-section{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            & .footer-options{
+                width:290px ;
+                height: 103px;
+                
+                margin:30px ;
+                & .footer-option-img{
+                    width: 100%;
+                    height:60px;
+    
+                
+            }
+            & .footer-option-title{
+                font-size:14px ;
+                font-weight: 300;
+                color: black;
+                text-align: center;
+            }
+        
+        }
+        }
+        & .helps{
+            display: flex;
+            align-items: top;
+            justify-content: space-between;
+            padding: 30px;
+            & .help-title{
+                font-size:18px ;
+                font-weight:500 ;
+                color: black;
+
+            }
+            & .help-context{
+                font-size:18px ;
+                font-weight:300 ;
+                color: gray;
+            }
+            & .with-us{
+
+                & .icons{
+                    display: flex;
+                    align-items: center;
+                    justify-content: right;
+                    gap: 20px;
+                    margin: 10px 0;
+                }
+                & svg{
+                    color: grey;
+                }
+                & .email{
+                    margin-top: 10px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    gap: 10px;
+
+                    & .your-email{
+                        font-size:16px ;
+                        font-weight: 500;
+                        background-color: gainsboro;
+                        padding: 20px 20px 20px 200px;
+                        border-radius: 10px;
+                        color: gray;
+                    
+                    }
+                    & .submit{
+                        font-size:16px ;
+                        font-weight: 500;
+                        background-color: gainsboro;
+                        color: white;
+                        padding: 20px;
+                        border-radius: 10px;
+                        
+                    }
+                }
+               
+            }
+        }
+        
+
+}

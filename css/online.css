@@ -1,0 +1,92 @@
+.online{
+    width: 1479px;
+    height: 223px;
+    margin: 0 auto;
+    margin-top: 16px;
+    
+    border-top: 2px solid gainsboro;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 200px;
+    & .online-right{
+        
+        margin-right: 20px;
+        & .online-title{
+            font-size: 18px;
+            font-weight:bold ;
+            color: black;
+            margin-top: 20px;
+        }
+        & .online-text{
+            font-size: 14px;
+            color: gray;
+            
+            
+        }
+        & .online-seemore{
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+            justify-content: right;
+            & svg{
+                color: rgb(79, 167, 255);
+                width: 30px;
+                height: 30px;
+            }
+            & h3{color: rgb(79, 167, 255);
+                color: 18px;
+            }
+        }
+    }
+    & .online-imges{
+        display: flex;
+        gap: 10px;
+        margin-left: 20px;
+        & .online-img{
+            width: 108px;px ;
+            height: 108px;
+            border-radius: 10px;
+            border: 2px solid gray;
+            padding: 20px;
+
+        }
+    }
+}
+.alert{
+    
+    width: 1479px;
+    height: 88px;
+    
+    border-top: 2px solid gainsboro;
+    margin: 0 auto;
+    margin-top: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    & .alert-text{
+        
+        font-size: 14px;
+        font-weight: 400;
+    }
+}
+.sponser{
+    width: 1519.2px; 
+    height: 160px;
+    margin: 0 auto;
+    background-color:rgb(232, 232, 232);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: right;
+    & img{
+        width: 189.9px;
+        height: 80px;
+        border: 0.5px solid gainsboro;
+        padding: 0 40px;
+    }
+    & .secon{
+        width: 253.2px;
+        height: 80px;
+    }
+}

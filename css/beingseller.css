@@ -1,0 +1,14 @@
+.beingseller{
+    width: 100%;
+    height: 100%;
+    margin-top: 16px;
+    & .container{
+        width: 100%;
+        height: 100%;
+        & .beingseller-img{
+            width: 100%;
+            height: 100%;
+            border-radius: 30px;
+        }
+    }
+}

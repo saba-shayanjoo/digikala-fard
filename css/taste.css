@@ -1,0 +1,78 @@
+.taste{
+    width: 100%;
+    height: 418px;
+    margin-top: 16px;
+    
+    & .container{
+        border: 2px solid gainsboro;
+        border-radius: 30px;
+        
+        width: 100%;
+        height: 100%;
+        display: flex;
+        & .taste-box{
+            
+            width: 332px;
+            height: 417px;
+            
+            &:not(:last-child){border-left: 2px solid gainsboro;}
+            & .title-taste-box{
+                font-size:16px ;
+                font-weight: 600;
+                color:black ;
+                margin-right: 20px;
+                padding-top: 15px;
+            }
+            & .based-on-your-taste{
+                font-size:12px ;
+                font-weight: 300;
+                color:gray ;
+                margin-top: 5px;
+                margin-right: 20px;
+
+            }
+            & .taste-pdoduct{
+                margin-top: 10px;
+                
+                display: flex;
+                flex-flow: wrap;
+                align-items: center;
+                justify-content: center;
+                & .tate-box-container-img{
+                    &:not(:nth-child(2n)){border-left: 2px solid gainsboro;}
+                    &:not(:nth-child(3)){border-bottom: 2px solid gainsboro;}
+                    &:last-child{border-bottom: 2px solid white;}
+                    padding: 8px 8px;
+                    
+                    
+                    
+                    width: 145px;
+                    height: 145px;
+                    & img{
+                        
+                        width: 130px;
+                        height: 130px;
+                    }
+                }
+            }
+            & .see-more-taste{
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                padding-right: 15px;
+                margin-top: 10px;
+                & .text-see-more-taste{
+                    font-size: 16px;
+                    font-weight:600 ;
+                    color: rgb(79, 167, 255);
+                }
+                & svg{
+                    width: 30px;
+                    height: 30px;
+                    color: rgb(79, 167, 255);
+                }
+            }
+
+        }
+    }
+}
